@@ -29,25 +29,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtelwifiue/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
-    vendor/samsung/gtelwifiue/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
-    vendor/samsung/gtelwifiue/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/samsung/gtelwifiue/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
-    vendor/samsung/gtelwifiue/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libawb_algo_front_al.so:system/lib/libawb_algo_front_al.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
-    vendor/samsung/gtelwifiue/proprietary/lib/libdmcFaceEngine.so:system/lib/libdmcFaceEngine.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libQjpeg.so:system/lib/libQjpeg.so \
-    vendor/samsung/gtelwifiue/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
-    vendor/samsung/gtelwifiue/proprietary/lib/libseccamera_jni.so:system/lib/libseccamera_jni.so \
-    vendor/samsung/gtelwifiue/proprietary/lib/libsecface.so:system/lib/libsecface.so \
-    vendor/samsung/gtelwifiue/proprietary/lib/libsecjpeginterface.so:system/lib/libsecjpeginterface.so \
-    vendor/samsung/gtelwifiue/proprietary/lib/libsecjpegquram.so:system/lib/libsecjpegquram.so \
-    vendor/samsung/gtelwifiue/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/gtelwifiue/proprietary/lib/libsupershot.so:system/lib/libsupershot.so \
     vendor/samsung/gtelwifiue/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/samsung/gtelwifiue/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/samsung/gtelwifiue/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
