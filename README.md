@@ -1,0 +1,2 @@
+# proprietary_device_samsung
+proprietary_device_samsung
