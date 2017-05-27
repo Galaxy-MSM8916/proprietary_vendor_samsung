@@ -1,2 +1,3 @@
-# proprietary_device_samsung
-proprietary_device_samsung
+# proprietary_vendor_samsung
+
+Vendor blobs for samsung msm8916 devices
