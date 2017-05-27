@@ -16,31 +16,14 @@
 
 ifeq ($(TARGET_BOARD_PLATFORM),msm8916)
 include $(CLEAR_VARS)
-LOCAL_MODULE := libedmnativehelper
+LOCAL_MODULE := libHevcSwDecoder
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/lib/libedmnativehelper.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libHevcSwDecoder.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := TimeService
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := qcom-system-daemon
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/bin/qcom-system-daemon
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 endif

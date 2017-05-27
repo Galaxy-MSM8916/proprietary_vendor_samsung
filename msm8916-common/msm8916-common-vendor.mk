@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/app/imsservice/imsservice.apk:system/app/imsservice/imsservice.apk \
     vendor/samsung/msm8916-common/proprietary/app/ImsSettings/ImsSettings.apk:system/app/ImsSettings/ImsSettings.apk \
     vendor/samsung/msm8916-common/proprietary/app/ImsTelephonyService/ImsTelephonyService.apk:system/app/ImsTelephonyService/ImsTelephonyService.apk \
+    vendor/samsung/msm8916-common/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/samsung/msm8916-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/samsung/msm8916-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/msm8916-common/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
@@ -36,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/msm8916-common/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/samsung/msm8916-common/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
+    vendor/samsung/msm8916-common/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/samsung/msm8916-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/msm8916-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/msm8916-common/proprietary/bin/radish:system/bin/radish \
@@ -84,6 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/msm8916-common/proprietary/lib/libcpve-client.so:system/lib/libcpve-client.so \
     vendor/samsung/msm8916-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
     vendor/samsung/msm8916-common/proprietary/lib/libexifa.so:system/lib/libexifa.so \
     vendor/samsung/msm8916-common/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/msm8916-common/proprietary/lib/libgdmcprov.so:system/lib/libgdmcprov.so \
@@ -166,7 +169,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
@@ -252,6 +254,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
 PRODUCT_PACKAGES += \
-    libedmnativehelper \
-    TimeService \
-    qcom-system-daemon
+    libHevcSwDecoder
