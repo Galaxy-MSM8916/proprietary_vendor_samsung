@@ -17,16 +17,23 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/gprimelte/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:system/etc/B05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/gprimelte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+    vendor/samsung/gprimelte/proprietary/blobs/spr/etc/Bluetooth_cal.acdb:system/blobs/spr/etc/Bluetooth_cal.acdb \
     vendor/samsung/gprimelte/proprietary/etc/calib_SI_matrix_data_file.dat:system/etc/calib_SI_matrix_data_file.dat \
     vendor/samsung/gprimelte/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/samsung/gprimelte/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
+    vendor/samsung/gprimelte/proprietary/blobs/spr/etc/General_cal.acdb:system/blobs/spr/etc/General_cal.acdb \
     vendor/samsung/gprimelte/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
+    vendor/samsung/gprimelte/proprietary/blobs/spr/etc/Global_cal.acdb:system/blobs/spr/etc/Global_cal.acdb \
     vendor/samsung/gprimelte/proprietary/etc/H08QL_s5k4h5yb_module_info.xml:system/etc/H08QL_s5k4h5yb_module_info.xml \
     vendor/samsung/gprimelte/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
+    vendor/samsung/gprimelte/proprietary/blobs/spr/etc/Handset_cal.acdb:system/blobs/spr/etc/Handset_cal.acdb \
     vendor/samsung/gprimelte/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
+    vendor/samsung/gprimelte/proprietary/blobs/spr/etc/Hdmi_cal.acdb:system/blobs/spr/etc/Hdmi_cal.acdb \
     vendor/samsung/gprimelte/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/samsung/gprimelte/proprietary/blobs/spr/etc/Headset_cal.acdb:system/blobs/spr/etc/Headset_cal.acdb \
     vendor/samsung/gprimelte/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/etc/sec_s3fwrn5_rfreg.bin \
     vendor/samsung/gprimelte/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/samsung/gprimelte/proprietary/blobs/spr/etc/Speaker_cal.acdb:system/blobs/spr/etc/Speaker_cal.acdb \
     vendor/samsung/gprimelte/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/gprimelte/proprietary/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
     vendor/samsung/gprimelte/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
@@ -41,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gprimelte/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/gprimelte/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
     vendor/samsung/gprimelte/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+    vendor/samsung/gprimelte/proprietary/blobs/spr/lib/libsec-ril.so:system/blobs/spr/lib/libsec-ril.so \
     vendor/samsung/gprimelte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/gprimelte/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
     vendor/samsung/gprimelte/proprietary/vendor/lib/libactuator_dw9804_e5_camcorder.so:system/vendor/lib/libactuator_dw9804_e5_camcorder.so \
