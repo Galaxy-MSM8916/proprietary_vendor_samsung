@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtelwifiue/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/samsung/gtelwifiue/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libQjpeg.so:system/lib/libQjpeg.so \
     vendor/samsung/gtelwifiue/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/samsung/gtelwifiue/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
