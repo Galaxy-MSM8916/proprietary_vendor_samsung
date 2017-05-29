@@ -74,7 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/etc/somxreg.conf:system/etc/somxreg.conf \
     vendor/samsung/msm8916-common/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/msm8916-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/samsung/msm8916-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/msm8916-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/msm8916-common/proprietary/lib/libapve-client.so:system/lib/libapve-client.so \
     vendor/samsung/msm8916-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
@@ -123,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/bin/perfd:system/bin/perfd \
     vendor/samsung/msm8916-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
