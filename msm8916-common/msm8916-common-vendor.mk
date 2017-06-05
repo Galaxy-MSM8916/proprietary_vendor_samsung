@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/msm8916-common/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/msm8916-common/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/samsung/msm8916-common/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/msm8916-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/msm8916-common/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/samsung/msm8916-common/proprietary/bin/ssr_setup:system/bin/ssr_setup \
@@ -86,8 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/samsung/msm8916-common/proprietary/lib/libplayready_v2.5.so:system/lib/libplayready_v2.5.so \
     vendor/samsung/msm8916-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/msm8916-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/msm8916-common/proprietary/lib/libseckeyprov.so:system/lib/libseckeyprov.so \
     vendor/samsung/msm8916-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/msm8916-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
