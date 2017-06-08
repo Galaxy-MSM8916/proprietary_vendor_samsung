@@ -18,12 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gprimeltetfnvzw/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/gprimeltetfnvzw/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:system/etc/B05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/gprimeltetfnvzw/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-    vendor/samsung/gprimeltetfnvzw/proprietary/etc/calib_SI_matrix_data_file.dat:system/etc/calib_SI_matrix_data_file.dat \
-    vendor/samsung/gprimeltetfnvzw/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
-    vendor/samsung/gprimeltetfnvzw/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
-    vendor/samsung/gprimeltetfnvzw/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
-    vendor/samsung/gprimeltetfnvzw/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
-    vendor/samsung/gprimeltetfnvzw/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
     vendor/samsung/gprimeltetfnvzw/proprietary/etc/G08QU_imx219_module_info.xml:system/etc/G08QU_imx219_module_info.xml \
     vendor/samsung/gprimeltetfnvzw/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/gprimeltetfnvzw/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -31,13 +25,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gprimeltetfnvzw/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/samsung/gprimeltetfnvzw/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/samsung/gprimeltetfnvzw/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/samsung/gprimeltetfnvzw/proprietary/etc/calib_SI_matrix_data_file.dat:system/etc/calib_SI_matrix_data_file.dat \
+    vendor/samsung/gprimeltetfnvzw/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
+    vendor/samsung/gprimeltetfnvzw/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
+    vendor/samsung/gprimeltetfnvzw/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
+    vendor/samsung/gprimeltetfnvzw/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
+    vendor/samsung/gprimeltetfnvzw/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/samsung/gprimeltetfnvzw/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/samsung/gprimeltetfnvzw/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
+    vendor/samsung/gprimeltetfnvzw/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/lib/libaec_algo_front.so:system/lib/libaec_algo_front.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/lib/libaec_algo_rear.so:system/lib/libaec_algo_rear.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
-    vendor/samsung/gprimeltetfnvzw/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
-    vendor/samsung/gprimeltetfnvzw/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/lib/libalgobsx.so:system/lib/libalgobsx.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/lib/libawb_algo_front_al.so:system/lib/libawb_algo_front_al.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
@@ -49,8 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gprimeltetfnvzw/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libactuator_dw9804_kleos_camcorder.so:system/vendor/lib/libactuator_dw9804_kleos_camcorder.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libactuator_dw9804_kleos_camera.so:system/vendor/lib/libactuator_dw9804_kleos_camera.so \
-    vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libchromatix_imx219_common_res0.so:system/vendor/lib/libchromatix_imx219_common_res0.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libchromatix_imx219_common.so:system/vendor/lib/libchromatix_imx219_common.so \
+    vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libchromatix_imx219_common_res0.so:system/vendor/lib/libchromatix_imx219_common_res0.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libchromatix_imx219_default_video.so:system/vendor/lib/libchromatix_imx219_default_video.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libchromatix_imx219_liveshot.so:system/vendor/lib/libchromatix_imx219_liveshot.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libchromatix_imx219_panorama.so:system/vendor/lib/libchromatix_imx219_panorama.so \
@@ -62,16 +62,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_video.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_video.so \
-    vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so \
+    vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \

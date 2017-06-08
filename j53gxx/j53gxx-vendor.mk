@@ -26,20 +26,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j53gxx/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/j53gxx/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/j53gxx/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/samsung/j53gxx/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
+    vendor/samsung/j53gxx/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
     vendor/samsung/j53gxx/proprietary/lib/libaec_algo_front.so:system/lib/libaec_algo_front.so \
     vendor/samsung/j53gxx/proprietary/lib/libaec_algo_rear.so:system/lib/libaec_algo_rear.so \
     vendor/samsung/j53gxx/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
-    vendor/samsung/j53gxx/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
-    vendor/samsung/j53gxx/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
     vendor/samsung/j53gxx/proprietary/lib/libawb_algo_front_al.so:system/lib/libawb_algo_front_al.so \
     vendor/samsung/j53gxx/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
+    vendor/samsung/j53gxx/proprietary/lib/libchromatix_s5k3l2xx_common.so:system/lib/libchromatix_s5k3l2xx_common.so \
     vendor/samsung/j53gxx/proprietary/lib/libchromatix_s5k3l2xx_common_1080p_b.so:system/lib/libchromatix_s5k3l2xx_common_1080p_b.so \
     vendor/samsung/j53gxx/proprietary/lib/libchromatix_s5k3l2xx_common_1080p_s.so:system/lib/libchromatix_s5k3l2xx_common_1080p_s.so \
     vendor/samsung/j53gxx/proprietary/lib/libchromatix_s5k3l2xx_common_res0.so:system/lib/libchromatix_s5k3l2xx_common_res0.so \
     vendor/samsung/j53gxx/proprietary/lib/libchromatix_s5k3l2xx_common_res1.so:system/lib/libchromatix_s5k3l2xx_common_res1.so \
     vendor/samsung/j53gxx/proprietary/lib/libchromatix_s5k3l2xx_common_res2.so:system/lib/libchromatix_s5k3l2xx_common_res2.so \
     vendor/samsung/j53gxx/proprietary/lib/libchromatix_s5k3l2xx_common_res3.so:system/lib/libchromatix_s5k3l2xx_common_res3.so \
-    vendor/samsung/j53gxx/proprietary/lib/libchromatix_s5k3l2xx_common.so:system/lib/libchromatix_s5k3l2xx_common.so \
     vendor/samsung/j53gxx/proprietary/lib/libchromatix_s5k3l2xx_default_video.so:system/lib/libchromatix_s5k3l2xx_default_video.so \
     vendor/samsung/j53gxx/proprietary/lib/libchromatix_s5k3l2xx_golfshot.so:system/lib/libchromatix_s5k3l2xx_golfshot.so \
     vendor/samsung/j53gxx/proprietary/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so:system/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so \
@@ -63,24 +63,24 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libactuator_dw9806_camcorder.so:system/vendor/lib/libactuator_dw9806_camcorder.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libactuator_dw9806_camera.so:system/vendor/lib/libactuator_dw9806_camera.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
-    vendor/samsung/j53gxx/proprietary/vendor/lib/libchromatix_s5k3l2xx_vt_hd.so:system/vendor/lib/libchromatix_s5k3l2xx_vt_hd.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libchromatix_s5k3l2xx_vt.so:system/vendor/lib/libchromatix_s5k3l2xx_vt.so \
+    vendor/samsung/j53gxx/proprietary/vendor/lib/libchromatix_s5k3l2xx_vt_hd.so:system/vendor/lib/libchromatix_s5k3l2xx_vt_hd.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_common.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_common.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_pip.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_pip.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_video.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_video.so \
+    vendor/samsung/j53gxx/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_30fps.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt_30fps.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so \
-    vendor/samsung/j53gxx/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
@@ -95,8 +95,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so:system/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera_m24128s_eeprom.so:system/vendor/lib/libmmcamera_m24128s_eeprom.so \
-    vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
+    vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so:system/vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera_s5k3l2xx.so:system/vendor/lib/libmmcamera_s5k3l2xx.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libmmcamera_s5k5e3yx.so:system/vendor/lib/libmmcamera_s5k5e3yx.so \

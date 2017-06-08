@@ -17,11 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/fortunave3g/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/fortunave3g/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-    vendor/samsung/fortunave3g/proprietary/etc/calib_SI_matrix_data_file.dat:system/etc/calib_SI_matrix_data_file.dat \
-    vendor/samsung/fortunave3g/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
-    vendor/samsung/fortunave3g/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
-    vendor/samsung/fortunave3g/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
-    vendor/samsung/fortunave3g/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
     vendor/samsung/fortunave3g/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/fortunave3g/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
     vendor/samsung/fortunave3g/proprietary/etc/H08QL_s5k4h5yb_module_info.xml:system/etc/H08QL_s5k4h5yb_module_info.xml \
@@ -29,13 +24,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fortunave3g/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/samsung/fortunave3g/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/samsung/fortunave3g/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/samsung/fortunave3g/proprietary/etc/calib_SI_matrix_data_file.dat:system/etc/calib_SI_matrix_data_file.dat \
+    vendor/samsung/fortunave3g/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
+    vendor/samsung/fortunave3g/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
+    vendor/samsung/fortunave3g/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
+    vendor/samsung/fortunave3g/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
     vendor/samsung/fortunave3g/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/fortunave3g/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/samsung/fortunave3g/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
+    vendor/samsung/fortunave3g/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
     vendor/samsung/fortunave3g/proprietary/lib/libaec_algo_front.so:system/lib/libaec_algo_front.so \
     vendor/samsung/fortunave3g/proprietary/lib/libaec_algo_rear.so:system/lib/libaec_algo_rear.so \
     vendor/samsung/fortunave3g/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
-    vendor/samsung/fortunave3g/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
-    vendor/samsung/fortunave3g/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
     vendor/samsung/fortunave3g/proprietary/lib/libawb_algo_front_al.so:system/lib/libawb_algo_front_al.so \
     vendor/samsung/fortunave3g/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
     vendor/samsung/fortunave3g/proprietary/lib/libk303c.so:system/lib/libk303c.so \
@@ -48,32 +48,32 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fortunave3g/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libactuator_dw9804_e5_camcorder.so:system/vendor/lib/libactuator_dw9804_e5_camcorder.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libactuator_dw9804_e5_camera.so:system/vendor/lib/libactuator_dw9804_e5_camera.so \
+    vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k4h5yb_common.so:system/vendor/lib/libchromatix_s5k4h5yb_common.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k4h5yb_common_res0.so:system/vendor/lib/libchromatix_s5k4h5yb_common_res0.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k4h5yb_common_res1.so:system/vendor/lib/libchromatix_s5k4h5yb_common_res1.so \
-    vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k4h5yb_common.so:system/vendor/lib/libchromatix_s5k4h5yb_common.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k4h5yb_default_video.so:system/vendor/lib/libchromatix_s5k4h5yb_default_video.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k4h5yb_liveshot.so:system/vendor/lib/libchromatix_s5k4h5yb_liveshot.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k4h5yb_panorama.so:system/vendor/lib/libchromatix_s5k4h5yb_panorama.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k4h5yb_preview.so:system/vendor/lib/libchromatix_s5k4h5yb_preview.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k4h5yb_snapshot.so:system/vendor/lib/libchromatix_s5k4h5yb_snapshot.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k4h5yb_video_hd.so:system/vendor/lib/libchromatix_s5k4h5yb_video_hd.so \
-    vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k4h5yb_zslshot.so:system/vendor/lib/libchromatix_s5k4h5yb_zslshot.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k4h5yb_zsl.so:system/vendor/lib/libchromatix_s5k4h5yb_zsl.so \
+    vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k4h5yb_zslshot.so:system/vendor/lib/libchromatix_s5k4h5yb_zslshot.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_common.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_common.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_pip.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_pip.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_video.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_video.so \
-    vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so \
+    vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/samsung/fortunave3g/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/samsung/fortunave3g/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/samsung/fortunave3g/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \

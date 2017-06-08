@@ -20,45 +20,45 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5-common/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
     vendor/samsung/j5-common/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
     vendor/samsung/j5-common/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
-    vendor/samsung/j5-common/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_DNSe_EP_ver216b.so:system/lib/lib_DNSe_EP_ver216b.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_DNSe_NRSS_ver230.so:system/lib/lib_DNSe_NRSS_ver230.so \
-    vendor/samsung/j5-common/proprietary/lib/libmysound.so:system/lib/libmysound.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_PreGainBooster_ver104.so:system/lib/lib_PreGainBooster_ver104.so \
-    vendor/samsung/j5-common/proprietary/lib/libsamsungearcare.so:system/lib/libsamsungearcare.so \
-    vendor/samsung/j5-common/proprietary/lib/libsamsungeffect.so:system/lib/libsamsungeffect.so \
     vendor/samsung/j5-common/proprietary/lib/libSamsungMusic_v4.so:system/lib/libSamsungMusic_v4.so \
     vendor/samsung/j5-common/proprietary/lib/libSamsungPkcs11Wrapper.so:system/lib/libSamsungPkcs11Wrapper.so \
     vendor/samsung/j5-common/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
-    vendor/samsung/j5-common/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
     vendor/samsung/j5-common/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
-    vendor/samsung/j5-common/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
-    vendor/samsung/j5-common/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
+    vendor/samsung/j5-common/proprietary/lib/lib_DNSe_EP_ver216b.so:system/lib/lib_DNSe_EP_ver216b.so \
+    vendor/samsung/j5-common/proprietary/lib/lib_DNSe_NRSS_ver230.so:system/lib/lib_DNSe_NRSS_ver230.so \
+    vendor/samsung/j5-common/proprietary/lib/lib_PreGainBooster_ver104.so:system/lib/lib_PreGainBooster_ver104.so \
     vendor/samsung/j5-common/proprietary/lib/lib_SamsungRec_V04013.so:system/lib/lib_SamsungRec_V04013.so \
     vendor/samsung/j5-common/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
+    vendor/samsung/j5-common/proprietary/lib/lib_SoundAlive_3DPosition_ver107.so:system/lib/lib_SoundAlive_3DPosition_ver107.so \
+    vendor/samsung/j5-common/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
+    vendor/samsung/j5-common/proprietary/lib/lib_SoundAlive_play_plus_ver126a.so:system/lib/lib_SoundAlive_play_plus_ver126a.so \
+    vendor/samsung/j5-common/proprietary/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
+    vendor/samsung/j5-common/proprietary/lib/lib_SoundBooster_ver608.so:system/lib/lib_SoundBooster_ver608.so \
+    vendor/samsung/j5-common/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
+    vendor/samsung/j5-common/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
+    vendor/samsung/j5-common/proprietary/lib/libmysound.so:system/lib/libmysound.so \
+    vendor/samsung/j5-common/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
+    vendor/samsung/j5-common/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
     vendor/samsung/j5-common/proprietary/lib/libsamsungSoundbooster_ext.so:system/lib/libsamsungSoundbooster_ext.so \
     vendor/samsung/j5-common/proprietary/lib/libsamsungSoundbooster_pgb.so:system/lib/libsamsungSoundbooster_pgb.so \
     vendor/samsung/j5-common/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_SoundAlive_3DPosition_ver107.so:system/lib/lib_SoundAlive_3DPosition_ver107.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_SoundAlive_play_plus_ver126a.so:system/lib/lib_SoundAlive_play_plus_ver126a.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
+    vendor/samsung/j5-common/proprietary/lib/libsamsungearcare.so:system/lib/libsamsungearcare.so \
+    vendor/samsung/j5-common/proprietary/lib/libsamsungeffect.so:system/lib/libsamsungeffect.so \
+    vendor/samsung/j5-common/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
     vendor/samsung/j5-common/proprietary/lib/libsoundalive.so:system/lib/libsoundalive.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_SoundBooster_ver608.so:system/lib/lib_SoundBooster_ver608.so \
     vendor/samsung/j5-common/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/samsung/j5-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/j5-common/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
     vendor/samsung/j5-common/proprietary/lib/soundfx/libmyspace.so:system/lib/soundfx/libmyspace.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/samsung/j5-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/samsung/j5-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-    vendor/samsung/j5-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so
+    vendor/samsung/j5-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so
