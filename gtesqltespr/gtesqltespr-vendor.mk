@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtesqltespr/proprietary/vendor/lib/libmmcamera_db8221a.so:system/vendor/lib/libmmcamera_db8221a.so \
     vendor/samsung/gtesqltespr/proprietary/vendor/lib/libmmcamera_dw_dw9806b_eeprom.so:system/vendor/lib/libmmcamera_dw_dw9806b_eeprom.so \
     vendor/samsung/gtesqltespr/proprietary/vendor/lib/libmmcamera_dw_dw9807_eeprom.so:system/vendor/lib/libmmcamera_dw_dw9807_eeprom.so \
-    vendor/samsung/gtesqltespr/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/samsung/gtesqltespr/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/samsung/gtesqltespr/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/samsung/gtesqltespr/proprietary/vendor/lib/libmmcamera_image_stab.so:system/vendor/lib/libmmcamera_image_stab.so \
