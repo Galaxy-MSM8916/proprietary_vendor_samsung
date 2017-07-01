@@ -85,10 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gprimeltezt/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/samsung/gprimeltezt/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/samsung/gprimeltezt/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
-    vendor/samsung/gprimeltezt/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
-    vendor/samsung/gprimeltezt/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
-    vendor/samsung/gprimeltezt/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
-    vendor/samsung/gprimeltezt/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
     vendor/samsung/gprimeltezt/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/samsung/gprimeltezt/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/samsung/gprimeltezt/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
