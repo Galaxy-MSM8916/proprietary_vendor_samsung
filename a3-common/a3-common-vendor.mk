@@ -124,6 +124,14 @@ PRODUCT_COPY_FILES += \
 
 ### SEC SOUND FEATURE
 PRODUCT_COPY_FILES += \
+    vendor/samsung/a3-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+    vendor/samsung/a3-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
+    vendor/samsung/a3-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
+    vendor/samsung/a3-common/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
+    vendor/samsung/a3-common/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
+    vendor/samsung/a3-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/samsung/a3-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/samsung/a3-common/proprietary/etc/Tfa9895.cnt:system/etc/Tfa9895.cnt \
     vendor/samsung/a3-common/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
     vendor/samsung/a3-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/a3-common/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
