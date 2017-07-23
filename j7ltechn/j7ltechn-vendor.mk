@@ -31,4 +31,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltechn/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j7ltechn/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/j7ltechn/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/j7ltechn/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so
+    vendor/samsung/j7ltechn/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+    vendor/samsung/j7ltechn/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/samsung/j7ltechn/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/samsung/j7ltechn/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/samsung/j7ltechn/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/samsung/j7ltechn/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/samsung/j7ltechn/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/samsung/j7ltechn/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/samsung/j7ltechn/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/samsung/j7ltechn/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/samsung/j7ltechn/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/samsung/j7ltechn/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so
