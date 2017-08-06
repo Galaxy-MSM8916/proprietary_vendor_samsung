@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5ltechn/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j5ltechn/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/j5ltechn/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/j5ltechn/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/samsung/j5ltechn/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/samsung/j5ltechn/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/j5ltechn/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
