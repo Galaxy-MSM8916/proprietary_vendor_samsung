@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/samsung/msm8916-common/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/samsung/msm8916-common/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/samsung/msm8916-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/msm8916-common/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/msm8916-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/samsung/msm8916-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -199,6 +198,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/samsung/msm8916-common/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/samsung/msm8916-common/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+
+ifneq ($(filter fortuna3g fortunave3g fortunalte fortunalteub gprimelte gprimeltexx gprimeltespr gprimeltetfnvzw, $(TARGET_DEVICE)),)
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm8916-common/proprietary/bin/qseecomd:system/bin/qseecomd 
+endif
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \

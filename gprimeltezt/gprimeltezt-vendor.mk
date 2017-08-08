@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gprimeltezt/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/gprimeltezt/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/gprimeltezt/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/gprimeltezt/proprietary/etc/G08QU_imx219_module_info.xml:system/etc/G08QU_imx219_module_info.xml \
     vendor/samsung/gprimeltezt/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
