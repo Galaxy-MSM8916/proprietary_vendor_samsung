@@ -25,7 +25,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fortunalteub/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/samsung/fortunalteub/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/fortunalteub/proprietary/etc/calib_SI_matrix_data_file.dat:system/etc/calib_SI_matrix_data_file.dat \
+    vendor/samsung/fortunalteub/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/etc/sec_s3fwrn5_rfreg.bin \
     vendor/samsung/fortunalteub/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+    vendor/samsung/fortunalteub/proprietary/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
     vendor/samsung/fortunalteub/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/samsung/fortunalteub/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
     vendor/samsung/fortunalteub/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
@@ -41,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fortunalteub/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/fortunalteub/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/fortunalteub/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/fortunalteub/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
     vendor/samsung/fortunalteub/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/samsung/fortunalteub/proprietary/vendor/lib/libactuator_dw9804_kleos_camcorder.so:system/vendor/lib/libactuator_dw9804_kleos_camcorder.so \
     vendor/samsung/fortunalteub/proprietary/vendor/lib/libactuator_dw9804_kleos_camera.so:system/vendor/lib/libactuator_dw9804_kleos_camera.so \
