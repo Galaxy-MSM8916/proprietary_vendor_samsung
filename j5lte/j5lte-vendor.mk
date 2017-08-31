@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5lte/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j5lte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/j5lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/j5lte/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/samsung/j5lte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/j5lte/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/j5lte/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
