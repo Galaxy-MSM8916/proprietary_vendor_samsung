@@ -102,9 +102,6 @@ PRODUCT_COPY_FILES += \
 
 ### SEC RIL
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a3-common/proprietary/bin/rild:system/bin/rild \
-    vendor/samsung/a3-common/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/a3-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/a3-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/a3-common/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so
 
