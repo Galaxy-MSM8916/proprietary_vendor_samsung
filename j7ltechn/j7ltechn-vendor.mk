@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltechn/proprietary/app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
     vendor/samsung/j7ltechn/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
-    vendor/samsung/j7ltechn/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/j7ltechn/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/j7ltechn/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/j7ltechn/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -27,8 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltechn/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/j7ltechn/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/samsung/j7ltechn/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
-    vendor/samsung/j7ltechn/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/j7ltechn/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j7ltechn/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/j7ltechn/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7ltechn/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
