@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j53gxx/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/samsung/j53gxx/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/samsung/j53gxx/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/samsung/j53gxx/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/samsung/j53gxx/proprietary/lib/hw/sensors.vendor.msm8916.so:system/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/j53gxx/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/j53gxx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j53gxx/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
