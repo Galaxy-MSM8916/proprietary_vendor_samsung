@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/fortunave3g/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/fortunave3g/proprietary/etc/calib_SI_matrix_data_file.dat:system/etc/calib_SI_matrix_data_file.dat \
     vendor/samsung/fortunave3g/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
-    vendor/samsung/fortunave3g/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/samsung/fortunave3g/proprietary/lib/hw/sensors.vendor.msm8916.so:system/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/fortunave3g/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
     vendor/samsung/fortunave3g/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
     vendor/samsung/fortunave3g/proprietary/lib/libaec_algo_front.so:system/lib/libaec_algo_front.so \
