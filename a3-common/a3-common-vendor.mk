@@ -97,7 +97,7 @@ PRODUCT_COPY_FILES += \
 ### SENSORS
 PRODUCT_COPY_FILES += \
     vendor/samsung/a3-common/proprietary/etc/calib_SI_matrix_data_file.dat:system/etc/calib_SI_matrix_data_file.dat \
-    vendor/samsung/a3-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/samsung/a3-common/proprietary/lib/hw/sensors.vendor.msm8916.so:system/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/a3-common/proprietary/lib/libalgobsx.so:system/lib/libalgobsx.so
 
 ### SEC RIL
