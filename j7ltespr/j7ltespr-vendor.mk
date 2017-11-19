@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/j7ltespr/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/j7ltespr/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
