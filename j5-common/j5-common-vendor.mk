@@ -16,30 +16,13 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/j5-common/proprietary/etc/T13QL_s5k3l2xx_module_info.xml:system/etc/T13QL_s5k3l2xx_module_info.xml \
-    vendor/samsung/j5-common/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
     vendor/samsung/j5-common/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/j5-common/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
     vendor/samsung/j5-common/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
-    vendor/samsung/j5-common/proprietary/lib/libSamsungMusic_v4.so:system/lib/libSamsungMusic_v4.so \
-    vendor/samsung/j5-common/proprietary/lib/libSamsungPkcs11Wrapper.so:system/lib/libSamsungPkcs11Wrapper.so \
-    vendor/samsung/j5-common/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
-    vendor/samsung/j5-common/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
     vendor/samsung/j5-common/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_DNSe_EP_ver216b.so:system/lib/lib_DNSe_EP_ver216b.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_DNSe_NRSS_ver230.so:system/lib/lib_DNSe_NRSS_ver230.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_PreGainBooster_ver104.so:system/lib/lib_PreGainBooster_ver104.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_SamsungRec_V04013.so:system/lib/lib_SamsungRec_V04013.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_SoundAlive_3DPosition_ver107.so:system/lib/lib_SoundAlive_3DPosition_ver107.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_SoundAlive_play_plus_ver126a.so:system/lib/lib_SoundAlive_play_plus_ver126a.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_SoundBooster_ver608.so:system/lib/lib_SoundBooster_ver608.so \
-    vendor/samsung/j5-common/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
     vendor/samsung/j5-common/proprietary/lib/libaec_algo_front.so:system/lib/libaec_algo_front.so \
     vendor/samsung/j5-common/proprietary/lib/libaec_algo_rear.so:system/lib/libaec_algo_rear.so \
     vendor/samsung/j5-common/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
-    vendor/samsung/j5-common/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/samsung/j5-common/proprietary/lib/libawb_algo_front_al.so:system/lib/libawb_algo_front_al.so \
     vendor/samsung/j5-common/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
     vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_common.so:system/lib/libchromatix_s5k3l2xx_common.so \
@@ -65,20 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5-common/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/j5-common/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
     vendor/samsung/j5-common/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/samsung/j5-common/proprietary/lib/libmysound.so:system/lib/libmysound.so \
-    vendor/samsung/j5-common/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
-    vendor/samsung/j5-common/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
-    vendor/samsung/j5-common/proprietary/lib/libsamsungSoundbooster_ext.so:system/lib/libsamsungSoundbooster_ext.so \
-    vendor/samsung/j5-common/proprietary/lib/libsamsungSoundbooster_pgb.so:system/lib/libsamsungSoundbooster_pgb.so \
-    vendor/samsung/j5-common/proprietary/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
-    vendor/samsung/j5-common/proprietary/lib/libsamsungearcare.so:system/lib/libsamsungearcare.so \
-    vendor/samsung/j5-common/proprietary/lib/libsamsungeffect.so:system/lib/libsamsungeffect.so \
-    vendor/samsung/j5-common/proprietary/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
-    vendor/samsung/j5-common/proprietary/lib/libsoundalive.so:system/lib/libsoundalive.so \
-    vendor/samsung/j5-common/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/samsung/j5-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
-    vendor/samsung/j5-common/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
-    vendor/samsung/j5-common/proprietary/lib/soundfx/libmyspace.so:system/lib/soundfx/libmyspace.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libactuator_dw9806_camcorder.so:system/vendor/lib/libactuator_dw9806_camcorder.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libactuator_dw9806_camera.so:system/vendor/lib/libactuator_dw9806_camera.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_vt.so:system/vendor/lib/libchromatix_s5k3l2xx_vt.so \
