@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7lte-common/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:system/etc/B05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/j7lte-common/proprietary/etc/T13QL_s5k3l2xx_module_info.xml:system/etc/T13QL_s5k3l2xx_module_info.xml \
     vendor/samsung/j7lte-common/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
-    vendor/samsung/j7lte-common/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+    vendor/samsung/j7lte-common/proprietary/lib/hw/camera.vendor.msm8916.so.bak:system/lib/hw/camera.vendor.msm8916.so.bak \
     vendor/samsung/j7lte-common/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
     vendor/samsung/j7lte-common/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
     vendor/samsung/j7lte-common/proprietary/lib/libSamsungMusic_v4.so:system/lib/libSamsungMusic_v4.so \
