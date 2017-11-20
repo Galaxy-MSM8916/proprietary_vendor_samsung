@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/j5-common/proprietary/etc/T13QL_s5k3l2xx_module_info.xml:system/etc/T13QL_s5k3l2xx_module_info.xml \
-    vendor/samsung/j5-common/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+    vendor/samsung/j5-common/proprietary/lib/hw/camera.vendor.msm8916.so.bak:system/lib/hw/camera.vendor.msm8916.so.bak \
     vendor/samsung/j5-common/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
     vendor/samsung/j5-common/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
     vendor/samsung/j5-common/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \

@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gprimeltetfnvzw/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/samsung/gprimeltetfnvzw/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/gprimeltetfnvzw/proprietary/etc/calib_SI_matrix_data_file.dat:system/etc/calib_SI_matrix_data_file.dat \
-    vendor/samsung/gprimeltetfnvzw/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+    vendor/samsung/gprimeltetfnvzw/proprietary/lib/hw/camera.vendor.msm8916.so.bak:system/lib/hw/camera.vendor.msm8916.so.bak \
     vendor/samsung/gprimeltetfnvzw/proprietary/lib/hw/sensors.vendor.msm8916.so:system/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
     vendor/samsung/gprimeltetfnvzw/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
