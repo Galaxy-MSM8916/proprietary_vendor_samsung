@@ -18,7 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/a3-common/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:system/etc/B05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/a3-common/proprietary/etc/G08QU_imx219_module_info.xml:system/etc/G08QU_imx219_module_info.xml \
-    vendor/samsung/a3-common/proprietary/lib/hw/camera.vendor.msm8916.so.bak:system/lib/hw/camera.vendor.msm8916.so.bak \
+    vendor/samsung/a3-common/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/a3-common/proprietary/lib/libaec_algo_front.so:system/lib/libaec_algo_front.so \
     vendor/samsung/a3-common/proprietary/lib/libaec_algo_rear.so:system/lib/libaec_algo_rear.so \
     vendor/samsung/a3-common/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
