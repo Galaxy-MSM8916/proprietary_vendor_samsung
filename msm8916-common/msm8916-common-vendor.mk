@@ -16,13 +16,11 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/samsung/msm8916-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/msm8916-common/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/samsung/msm8916-common/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
     vendor/samsung/msm8916-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/samsung/msm8916-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/samsung/msm8916-common/proprietary/bin/ftm_ptt:system/bin/ftm_ptt \
-    vendor/samsung/msm8916-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/msm8916-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/msm8916-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/samsung/msm8916-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -90,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/lib/libsomxmp4vdsw.so:system/lib/libsomxmp4vdsw.so \
     vendor/samsung/msm8916-common/proprietary/lib/libsomxnaace.so:system/lib/libsomxnaace.so \
     vendor/samsung/msm8916-common/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/samsung/msm8916-common/proprietary/bin/perfd:system/bin/perfd \
     vendor/samsung/msm8916-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
@@ -109,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
