@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/o7-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so \
     vendor/samsung/o7-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_video.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_video.so \
     vendor/samsung/o7-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so \
-    vendor/samsung/o7-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_30fps.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt_30fps.so \
     vendor/samsung/o7-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so \
     vendor/samsung/o7-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so \
     vendor/samsung/o7-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
