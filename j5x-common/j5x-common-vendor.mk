@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_zslshot.so:system/lib/libchromatix_s5k3l2xx_zslshot.so \
     vendor/samsung/j5x-common/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/j5x-common/proprietary/lib/libmmcamera_cac2_lib_13M.so:system/lib/libmmcamera_cac2_lib_13M.so \
-    vendor/samsung/j5x-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/samsung/j5x-common/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libactuator_zc533_camcorder.so:system/vendor/lib/libactuator_zc533_camcorder.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libactuator_zc533_camera.so:system/vendor/lib/libactuator_zc533_camera.so \
@@ -95,7 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/samsung/j5x-common/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libmmcamera_image_stab.so:system/vendor/lib/libmmcamera_image_stab.so \
