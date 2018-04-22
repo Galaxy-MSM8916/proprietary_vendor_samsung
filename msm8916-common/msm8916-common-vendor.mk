@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/samsung/msm8916-common/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/samsung/msm8916-common/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/samsung/msm8916-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/msm8916-common/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/msm8916-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/msm8916-common/proprietary/bin/ssr_diag:system/bin/ssr_diag \
@@ -116,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
