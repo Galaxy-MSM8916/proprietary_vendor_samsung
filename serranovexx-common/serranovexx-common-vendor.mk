@@ -139,4 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/serranovexx-common/proprietary/vendor/lib/libchromatix_sr544_default_video.so:system/vendor/lib/libchromatix_sr544_default_video.so \
     vendor/samsung/serranovexx-common/proprietary/vendor/lib/libchromatix_sr544_preview.so:system/vendor/lib/libchromatix_sr544_preview.so \
     vendor/samsung/serranovexx-common/proprietary/vendor/lib/libchromatix_sr544_snapshot.so:system/vendor/lib/libchromatix_sr544_snapshot.so \
-    vendor/samsung/serranovexx-common/proprietary/vendor/lib/libchromatix_sr544_zslshot.so:system/vendor/lib/libchromatix_sr544_zslshot.so
+    vendor/samsung/serranovexx-common/proprietary/vendor/lib/libchromatix_sr544_zslshot.so:system/vendor/lib/libchromatix_sr544_zslshot.so \
+    vendor/samsung/serranovexx-common/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/samsung/serranovexx-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so
