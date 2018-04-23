@@ -130,3 +130,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/a3-common/proprietary/etc/Tfa9895.cnt:system/etc/Tfa9895.cnt \
     vendor/samsung/a3-common/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so
+
+### QCOM KEYSTORE
+PRODUCT_COPY_FILES += \
+    vendor/samsung/a3-common/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so
