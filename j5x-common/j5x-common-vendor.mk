@@ -43,16 +43,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_common_res2.so:system/lib/libchromatix_s5k3l2xx_common_res2.so \
     vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_common_res3.so:system/lib/libchromatix_s5k3l2xx_common_res3.so \
     vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_default_video.so:system/lib/libchromatix_s5k3l2xx_default_video.so \
-    vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_golfshot.so:system/lib/libchromatix_s5k3l2xx_golfshot.so \
     vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so:system/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so \
     vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_hfr_1080p_s.so:system/lib/libchromatix_s5k3l2xx_hfr_1080p_s.so \
     vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_hfr_120.so:system/lib/libchromatix_s5k3l2xx_hfr_120.so \
     vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_liveshot.so:system/lib/libchromatix_s5k3l2xx_liveshot.so \
     vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_panorama.so:system/lib/libchromatix_s5k3l2xx_panorama.so \
-    vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_pip.so:system/lib/libchromatix_s5k3l2xx_pip.so \
     vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_preview.so:system/lib/libchromatix_s5k3l2xx_preview.so \
     vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_snapshot.so:system/lib/libchromatix_s5k3l2xx_snapshot.so \
-    vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_sports.so:system/lib/libchromatix_s5k3l2xx_sports.so \
     vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_uhd_video.so:system/lib/libchromatix_s5k3l2xx_uhd_video.so \
     vendor/samsung/j5x-common/proprietary/lib/libchromatix_s5k3l2xx_zslshot.so:system/lib/libchromatix_s5k3l2xx_zslshot.so \
     vendor/samsung/j5x-common/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
@@ -61,14 +58,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libactuator_zc533_camcorder.so:system/vendor/lib/libactuator_zc533_camcorder.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libactuator_zc533_camera.so:system/vendor/lib/libactuator_zc533_camera.so \
-    vendor/samsung/j5x-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_vt.so:system/vendor/lib/libchromatix_s5k3l2xx_vt.so \
-    vendor/samsung/j5x-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_vt_hd.so:system/vendor/lib/libchromatix_s5k3l2xx_vt_hd.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_common.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_common.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_preview.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_preview.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_snapshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_snapshot.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_video.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_video.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_vt.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_vt.so \
-    vendor/samsung/j5x-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_vt_30fps.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_vt_30fps.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_vt_hd.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_vt_hd.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_zslshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_zslshot.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libchromatix_sr552_common.so:system/vendor/lib/libchromatix_sr552_common.so \
@@ -91,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
-    vendor/samsung/j5x-common/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
