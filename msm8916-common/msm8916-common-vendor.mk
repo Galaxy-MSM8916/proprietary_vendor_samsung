@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/msm8916-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/msm8916-common/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libboringssl-compat.so:system/lib/libboringssl-compat.so \
     vendor/samsung/msm8916-common/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/msm8916-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/msm8916-common/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
