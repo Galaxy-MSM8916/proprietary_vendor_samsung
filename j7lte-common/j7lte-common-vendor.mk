@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7lte-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/j7lte-common/proprietary/lib/soundfx/libaudiosaplus_sec.so:system/lib/soundfx/libaudiosaplus_sec.so \
     vendor/samsung/j7lte-common/proprietary/lib/soundfx/libmyspace.so:system/lib/soundfx/libmyspace.so \
-    vendor/samsung/j7lte-common/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/samsung/j7lte-common/proprietary/vendor/lib/libSamsungPkcs11Wrapper.so:system/vendor/lib/libSamsungPkcs11Wrapper.so \
     vendor/samsung/j7lte-common/proprietary/vendor/lib/libactuator_dw9806_camcorder.so:system/vendor/lib/libactuator_dw9806_camcorder.so \
     vendor/samsung/j7lte-common/proprietary/vendor/lib/libactuator_dw9806_camera.so:system/vendor/lib/libactuator_dw9806_camera.so \
