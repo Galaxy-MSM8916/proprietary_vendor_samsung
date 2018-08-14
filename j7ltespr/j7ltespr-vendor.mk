@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/hw/sensors.vendor.msm8916.so:system/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/j7ltespr/proprietary/lib/libprotobuf-cpp-lgcy.so:system/lib/libprotobuf-cpp-lgcy.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/j7ltespr/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
