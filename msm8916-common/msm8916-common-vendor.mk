@@ -16,18 +16,19 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/samsung/msm8916-common/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/samsung/msm8916-common/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/samsung/msm8916-common/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
     vendor/samsung/msm8916-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/samsung/msm8916-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/samsung/msm8916-common/proprietary/bin/ftm_ptt:system/bin/ftm_ptt \
+    vendor/samsung/msm8916-common/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/samsung/msm8916-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/msm8916-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/samsung/msm8916-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/msm8916-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/msm8916-common/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/samsung/msm8916-common/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
-    vendor/samsung/msm8916-common/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/samsung/msm8916-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/msm8916-common/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/msm8916-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -35,10 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/samsung/msm8916-common/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/samsung/msm8916-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/msm8916-common/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/samsung/msm8916-common/proprietary/bin/wlandutservice:system/bin/wlandutservice \
-    vendor/samsung/msm8916-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/msm8916-common/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/msm8916-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/samsung/msm8916-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/samsung/msm8916-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
@@ -56,21 +54,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/msm8916-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/samsung/msm8916-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libcordon.so:system/lib/libcordon.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/msm8916-common/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libexifa.so:system/lib/libexifa.so \
     vendor/samsung/msm8916-common/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/msm8916-common/proprietary/lib/libgdmcprov.so:system/lib/libgdmcprov.so \
     vendor/samsung/msm8916-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libjpega.so:system/lib/libjpega.so \
     vendor/samsung/msm8916-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/samsung/msm8916-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/msm8916-common/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libplayready_v2.5.so:system/lib/libplayready_v2.5.so \
     vendor/samsung/msm8916-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libseckeyprov.so:system/lib/libseckeyprov.so \
     vendor/samsung/msm8916-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/msm8916-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/msm8916-common/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
@@ -88,8 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/lib/libsomxnaace.so:system/lib/libsomxnaace.so \
     vendor/samsung/msm8916-common/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -104,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -127,23 +115,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libcordon.so:system/vendor/lib/libcordon.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libexifa.so:system/vendor/lib/libexifa.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libjpega.so:system/vendor/lib/libjpega.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -151,8 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
