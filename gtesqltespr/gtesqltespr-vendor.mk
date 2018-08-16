@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtesqltespr/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
     vendor/samsung/gtesqltespr/proprietary/lib/libawb_algo_front_al.so:system/lib/libawb_algo_front_al.so \
     vendor/samsung/gtesqltespr/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
+    vendor/samsung/gtesqltespr/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/gtesqltespr/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/gtesqltespr/proprietary/lib/libmmcamera_cac2_lib_13M.so:system/lib/libmmcamera_cac2_lib_13M.so \
     vendor/samsung/gtesqltespr/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
@@ -39,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtesqltespr/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/gtesqltespr/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/gtesqltespr/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/samsung/gtesqltespr/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/samsung/gtesqltespr/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/samsung/gtesqltespr/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/samsung/gtesqltespr/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
