@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtesqltespr/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/gtesqltespr/proprietary/lib/libmmcamera_cac2_lib_13M.so:system/lib/libmmcamera_cac2_lib_13M.so \
     vendor/samsung/gtesqltespr/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+    vendor/samsung/gtesqltespr/proprietary/lib/libprotobuf-cpp-lgcy.so:system/lib/libprotobuf-cpp-lgcy.so \
     vendor/samsung/gtesqltespr/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/gtesqltespr/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/samsung/gtesqltespr/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
