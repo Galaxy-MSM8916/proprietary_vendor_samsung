@@ -50,6 +50,17 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libHevcSwDecoder
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/vendor/lib/libHevcSwDecoder.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libaudioalsa
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := proprietary/vendor/lib/libaudioalsa.so
