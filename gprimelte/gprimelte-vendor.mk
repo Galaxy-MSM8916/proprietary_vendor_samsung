@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gprimelte/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/samsung/gprimelte/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/etc/sec_s3fwrn5_rfreg.bin \
     vendor/samsung/gprimelte/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
-    vendor/samsung/gprimelte/proprietary/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
+    vendor/samsung/gprimelte/proprietary/vendor/lib/hw/nfc_nci.vendor.msm8916.so:system/vendor/lib/hw/nfc_nci.vendor.msm8916.so \
     vendor/samsung/gprimelte/proprietary/lib/hw/sensors.vendor.msm8916.so:system/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/gprimelte/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
     vendor/samsung/gprimelte/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
