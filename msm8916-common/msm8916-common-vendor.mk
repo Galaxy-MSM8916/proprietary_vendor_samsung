@@ -199,6 +199,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
+    libskia \
     vendor.qti.hardware.fm@1.0 \
     libHevcSwDecoder \
     libaudioalsa \
