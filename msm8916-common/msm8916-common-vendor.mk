@@ -131,7 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
@@ -203,6 +202,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
     libHevcSwDecoder \
     libaudioalsa \
+    libbtnv \
     libqct_resampler \
     libtime_genoff \
     TimeService
