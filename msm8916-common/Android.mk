@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter a5ltechn a5ltectc gprimelte gprimeltespr gprimeltexx gtelwifiue gtesqltespr j53gxx j5lte j5ltechn j5nlte j7ltespr j7ltechn o7prolte on7ltechn j5xnlte j5xlte,$(TARGET_DEVICE)),)
+ifneq ($(filter a5ltechn a5ltectc gprimelte gprimeltespr gprimeltexx gtelwifiue gtesqltespr j53gxx j5lte j5ltechn j5nlte j7ltespr j7ltechn o7prolte on7ltechn j5xnlte j5xlte serranovelte serranove3g,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
