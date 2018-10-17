@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/serranovexx-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/samsung/serranovexx-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/serranovexx-common/proprietary/lib/hw/camera.vendor.msm8916.so:system/vendor/lib/hw/camera.vendor.msm8916.so \
-    vendor/samsung/serranovexx-common/proprietary/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
     vendor/samsung/serranovexx-common/proprietary/lib/hw/sensors.vendor.msm8916.so:system/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/serranovexx-common/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
     vendor/samsung/serranovexx-common/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
@@ -35,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/serranovexx-common/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
     vendor/samsung/serranovexx-common/proprietary/lib/libawb_algo_front_al.so:system/lib/libawb_algo_front_al.so \
     vendor/samsung/serranovexx-common/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
-    vendor/samsung/serranovexx-common/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     vendor/samsung/serranovexx-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/serranovexx-common/proprietary/lib/libsensor.so:system/lib/libsensor.so \
     vendor/samsung/serranovexx-common/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
