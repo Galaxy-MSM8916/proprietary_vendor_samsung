@@ -133,5 +133,5 @@ PRODUCT_COPY_FILES += \
 
 ### QCOM KEYSTORE
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a3-common/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/samsung/a3-common/proprietary/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/samsung/a3-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so
