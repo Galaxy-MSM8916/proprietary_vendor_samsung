@@ -16,122 +16,122 @@
 
 ### SEC CAMERA
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a3-common/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:system/etc/B05QL_s5k5e3yx_module_info.xml \
-    vendor/samsung/a3-common/proprietary/etc/G08QU_imx219_module_info.xml:system/etc/G08QU_imx219_module_info.xml \
-    vendor/samsung/a3-common/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
-    vendor/samsung/a3-common/proprietary/lib/libaec_algo_front.so:system/lib/libaec_algo_front.so \
-    vendor/samsung/a3-common/proprietary/lib/libaec_algo_rear.so:system/lib/libaec_algo_rear.so \
-    vendor/samsung/a3-common/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
-    vendor/samsung/a3-common/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
-    vendor/samsung/a3-common/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
-    vendor/samsung/a3-common/proprietary/lib/libawb_algo_front_al.so:system/lib/libawb_algo_front_al.so \
-    vendor/samsung/a3-common/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
-    vendor/samsung/a3-common/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
-    vendor/samsung/a3-common/proprietary/lib/libmmcamera_cac2_lib_13M.so:system/lib/libmmcamera_cac2_lib_13M.so \
-    vendor/samsung/a3-common/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libactuator_dw9804_vasta3g_camcorder.so:system/vendor/lib/libactuator_dw9804_vasta3g_camcorder.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libactuator_dw9804_vasta3g_camera.so:system/vendor/lib/libactuator_dw9804_vasta3g_camera.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_common.so:system/vendor/lib/libchromatix_imx219_common.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_common_res0.so:system/vendor/lib/libchromatix_imx219_common_res0.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_default_video.so:system/vendor/lib/libchromatix_imx219_default_video.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_liveshot.so:system/vendor/lib/libchromatix_imx219_liveshot.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_panorama.so:system/vendor/lib/libchromatix_imx219_panorama.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_preview.so:system/vendor/lib/libchromatix_imx219_preview.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:system/vendor/lib/libchromatix_imx219_snapshot.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_zslshot.so:system/vendor/lib/libchromatix_imx219_zslshot.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_common.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_common.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_pip.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_pip.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_video.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_video.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_30fps.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt_30fps.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so:system/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_dw_dw9806b_eeprom.so:system/vendor/lib/libmmcamera_dw_dw9806b_eeprom.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_dw_dw9807_eeprom.so:system/vendor/lib/libmmcamera_dw_dw9807_eeprom.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_image_stab.so:system/vendor/lib/libmmcamera_image_stab.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so:system/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_m24128s_eeprom.so:system/vendor/lib/libmmcamera_m24128s_eeprom.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so:system/vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_s5k5e3yx.so:system/vendor/lib/libmmcamera_s5k5e3yx.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_silicon_sr544_eeprom.so:system/vendor/lib/libmmcamera_silicon_sr544_eeprom.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_silicon_sr552_eeprom.so:system/vendor/lib/libmmcamera_silicon_sr552_eeprom.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_zc533_eeprom.so:system/vendor/lib/libmmcamera_zc533_eeprom.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
+    vendor/samsung/a3-common/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:vendor/etc/B05QL_s5k5e3yx_module_info.xml \
+    vendor/samsung/a3-common/proprietary/etc/G08QU_imx219_module_info.xml:vendor/etc/G08QU_imx219_module_info.xml \
+    vendor/samsung/a3-common/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:vendor/lib/hw/camera.vendor.msm8916.so \
+    vendor/samsung/a3-common/proprietary/lib/libaec_algo_front.so:vendor/lib/libaec_algo_front.so \
+    vendor/samsung/a3-common/proprietary/lib/libaec_algo_rear.so:vendor/lib/libaec_algo_rear.so \
+    vendor/samsung/a3-common/proprietary/lib/libaf_algo_rear.so:vendor/lib/libaf_algo_rear.so \
+    vendor/samsung/a3-common/proprietary/lib/libAl_Awb.so:vendor/lib/libAl_Awb.so \
+    vendor/samsung/a3-common/proprietary/lib/libAl_Awb_Sp.so:vendor/lib/libAl_Awb_Sp.so \
+    vendor/samsung/a3-common/proprietary/lib/libawb_algo_front_al.so:vendor/lib/libawb_algo_front_al.so \
+    vendor/samsung/a3-common/proprietary/lib/libawb_algo_rear_al.so:vendor/lib/libawb_algo_rear_al.so \
+    vendor/samsung/a3-common/proprietary/lib/libmmcamera2_stats_algorithm.so:vendor/lib/libmmcamera2_stats_algorithm.so \
+    vendor/samsung/a3-common/proprietary/lib/libmmcamera_cac2_lib_13M.so:vendor/lib/libmmcamera_cac2_lib_13M.so \
+    vendor/samsung/a3-common/proprietary/lib/libmmcamera_wavelet_lib.so:vendor/lib/libmmcamera_wavelet_lib.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libactuator_dw9804_vasta3g_camcorder.so:vendor/lib/libactuator_dw9804_vasta3g_camcorder.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libactuator_dw9804_vasta3g_camera.so:vendor/lib/libactuator_dw9804_vasta3g_camera.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_common.so:vendor/lib/libchromatix_imx219_common.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_common_res0.so:vendor/lib/libchromatix_imx219_common_res0.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_default_video.so:vendor/lib/libchromatix_imx219_default_video.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_liveshot.so:vendor/lib/libchromatix_imx219_liveshot.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_panorama.so:vendor/lib/libchromatix_imx219_panorama.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_preview.so:vendor/lib/libchromatix_imx219_preview.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:vendor/lib/libchromatix_imx219_snapshot.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_imx219_zslshot.so:vendor/lib/libchromatix_imx219_zslshot.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_common.so:vendor/lib/libchromatix_s5k5e3yx_wide_common.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_pip.so:vendor/lib/libchromatix_s5k5e3yx_wide_pip.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_preview.so:vendor/lib/libchromatix_s5k5e3yx_wide_preview.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so:vendor/lib/libchromatix_s5k5e3yx_wide_snapshot.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_video.so:vendor/lib/libchromatix_s5k5e3yx_wide_video.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt.so:vendor/lib/libchromatix_s5k5e3yx_wide_vt.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_30fps.so:vendor/lib/libchromatix_s5k5e3yx_wide_vt_30fps.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so:vendor/lib/libchromatix_s5k5e3yx_wide_vt_hd.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so:vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:vendor/lib/libmmcamera2_c2d_module.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:vendor/lib/libmmcamera2_cpp_module.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:vendor/lib/libmmcamera2_frame_algorithm.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_iface_modules.so:vendor/lib/libmmcamera2_iface_modules.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:vendor/lib/libmmcamera2_imglib_modules.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_is.so:vendor/lib/libmmcamera2_is.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_isp_modules.so:vendor/lib/libmmcamera2_isp_modules.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:vendor/lib/libmmcamera2_pproc_modules.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_q3a_core.so:vendor/lib/libmmcamera2_q3a_core.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:vendor/lib/libmmcamera2_sensor_modules.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_stats_modules.so:vendor/lib/libmmcamera2_stats_modules.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_vpe_module.so:vendor/lib/libmmcamera2_vpe_module.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera2_wnr_module.so:vendor/lib/libmmcamera2_wnr_module.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_dw_dw9806b_eeprom.so:vendor/lib/libmmcamera_dw_dw9806b_eeprom.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_dw_dw9807_eeprom.so:vendor/lib/libmmcamera_dw_dw9807_eeprom.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:vendor/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_hdr_lib.so:vendor/lib/libmmcamera_hdr_lib.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_image_stab.so:vendor/lib/libmmcamera_image_stab.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_imglib.so:vendor/lib/libmmcamera_imglib.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_imx219.so:vendor/lib/libmmcamera_imx219.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so:vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_m24128s_eeprom.so:vendor/lib/libmmcamera_m24128s_eeprom.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_pdaf.so:vendor/lib/libmmcamera_pdaf.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_pdafcamif.so:vendor/lib/libmmcamera_pdafcamif.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so:vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_s5k5e3yx.so:vendor/lib/libmmcamera_s5k5e3yx.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_silicon_sr544_eeprom.so:vendor/lib/libmmcamera_silicon_sr544_eeprom.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_silicon_sr552_eeprom.so:vendor/lib/libmmcamera_silicon_sr552_eeprom.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:vendor/lib/libmmcamera_tintless_algo.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmcamera_zc533_eeprom.so:vendor/lib/libmmcamera_zc533_eeprom.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmipl.so:vendor/lib/libmmipl.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmjpeg.so:vendor/lib/libmmjpeg.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libmmqjpeg_codec.so:vendor/lib/libmmqjpeg_codec.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/liboemcamera.so:vendor/lib/liboemcamera.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libqomx_jpegenc.so:vendor/lib/libqomx_jpegenc.so
 
 ### NFC
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a3-common/proprietary/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
-    vendor/samsung/a3-common/proprietary/etc/security_nfc_profile.dat:system/etc/security_nfc_profile.dat \
-    vendor/samsung/a3-common/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/etc/sec_s3fwrn5_rfreg.bin \
-    vendor/samsung/a3-common/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin
+    vendor/samsung/a3-common/proprietary/vendor/lib/hw/nfc_nci.vendor.msm8916.so:vendor/lib/hw/nfc_nci.vendor.msm8916.so \
+    vendor/samsung/a3-common/proprietary/etc/security_nfc_profile.dat:vendor/etc/security_nfc_profile.dat \
+    vendor/samsung/a3-common/proprietary/etc/sec_s3fwrn5_rfreg.bin:vendor/etc/sec_s3fwrn5_rfreg.bin \
+    vendor/samsung/a3-common/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:vendor/firmware/sec_s3fwrn5_firmware.bin
 
 ### SENSORS
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a3-common/proprietary/etc/calib_SI_matrix_data_file.dat:system/etc/calib_SI_matrix_data_file.dat \
-    vendor/samsung/a3-common/proprietary/lib/hw/sensors.vendor.msm8916.so:system/lib/hw/sensors.vendor.msm8916.so \
-    vendor/samsung/a3-common/proprietary/lib/libalgobsx.so:system/lib/libalgobsx.so
+    vendor/samsung/a3-common/proprietary/etc/calib_SI_matrix_data_file.dat:vendor/etc/calib_SI_matrix_data_file.dat \
+    vendor/samsung/a3-common/proprietary/vendor/lib/hw/sensors.vendor.msm8916.so:vendor/lib/hw/sensors.vendor.msm8916.so \
+    vendor/samsung/a3-common/proprietary/lib/libalgobsx.so:vendor/lib/libalgobsx.so
 
 ### SEC RIL
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a3-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/a3-common/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so
+    vendor/samsung/a3-common/proprietary/lib/libsec-ril.so:vendor/lib/libsec-ril.so \
+    vendor/samsung/a3-common/proprietary/lib/libsec-ril-dsds.so:vendor/lib/libsec-ril-dsds.so
 
 ### QCOM FRAMEWORK
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so
+    vendor/samsung/a3-common/proprietary/vendor/lib/libdiag.so:vendor/lib/libdiag.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libdsutils.so:vendor/lib/libdsutils.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libidl.so:vendor/lib/libidl.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libqcci_legacy.so:vendor/lib/libqcci_legacy.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libqmi.so:vendor/lib/libqmi.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libqmi_cci.so:vendor/lib/libqmi_cci.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libqmi_client_qmux.so:vendor/lib/libqmi_client_qmux.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libqmi_common_so.so:vendor/lib/libqmi_common_so.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libqmi_csi.so:vendor/lib/libqmi_csi.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libqmi_encdec.so:vendor/lib/libqmi_encdec.so \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libqmiservices.so:vendor/lib/libqmiservices.so
 
 ### SEC SOUND FEATURE
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a3-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-    vendor/samsung/a3-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-    vendor/samsung/a3-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-    vendor/samsung/a3-common/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-    vendor/samsung/a3-common/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-    vendor/samsung/a3-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-    vendor/samsung/a3-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/samsung/a3-common/proprietary/etc/Tfa9895.cnt:system/etc/Tfa9895.cnt \
-    vendor/samsung/a3-common/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so
+    vendor/samsung/a3-common/proprietary/etc/Bluetooth_cal.acdb:vendor/etc/Bluetooth_cal.acdb \
+    vendor/samsung/a3-common/proprietary/etc/General_cal.acdb:vendor/etc/General_cal.acdb \
+    vendor/samsung/a3-common/proprietary/etc/Global_cal.acdb:vendor/etc/Global_cal.acdb \
+    vendor/samsung/a3-common/proprietary/etc/Handset_cal.acdb:vendor/etc/Handset_cal.acdb \
+    vendor/samsung/a3-common/proprietary/etc/Hdmi_cal.acdb:vendor/etc/Hdmi_cal.acdb \
+    vendor/samsung/a3-common/proprietary/etc/Headset_cal.acdb:vendor/etc/Headset_cal.acdb \
+    vendor/samsung/a3-common/proprietary/etc/Speaker_cal.acdb:vendor/etc/Speaker_cal.acdb \
+    vendor/samsung/a3-common/proprietary/etc/Tfa9895.cnt:vendor/etc/Tfa9895.cnt \
+    vendor/samsung/a3-common/proprietary/lib/libtfa9895.so:vendor/lib/libtfa9895.so
 
 ### QCOM KEYSTORE
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a3-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/samsung/a3-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so
+    vendor/samsung/a3-common/proprietary/bin/qseecomd:vendor/bin/qseecomd \
+    vendor/samsung/a3-common/proprietary/vendor/lib/libQSEEComAPI.so:vendor/lib/libQSEEComAPI.so
