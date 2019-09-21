@@ -160,6 +160,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
