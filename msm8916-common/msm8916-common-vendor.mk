@@ -19,74 +19,74 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/bin/diag_mdlog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_mdlog \
     vendor/samsung/msm8916-common/proprietary/bin/diag_uart_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_uart_log \
     vendor/samsung/msm8916-common/proprietary/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
-    vendor/samsung/msm8916-common/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/samsung/msm8916-common/proprietary/bin/ftm_ptt:system/bin/ftm_ptt \
+    vendor/samsung/msm8916-common/proprietary/bin/fmconfig:$(TARGET_COPY_OUT_SYSTEM)/bin/fmconfig \
+    vendor/samsung/msm8916-common/proprietary/bin/ftm_ptt:$(TARGET_COPY_OUT_SYSTEM)/bin/ftm_ptt \
     vendor/samsung/msm8916-common/proprietary/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/samsung/msm8916-common/proprietary/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/samsung/msm8916-common/proprietary/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/samsung/msm8916-common/proprietary/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/samsung/msm8916-common/proprietary/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
-    vendor/samsung/msm8916-common/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
+    vendor/samsung/msm8916-common/proprietary/bin/ptt_socket_app:$(TARGET_COPY_OUT_SYSTEM)/bin/ptt_socket_app \
     vendor/samsung/msm8916-common/proprietary/bin/qcom-system-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qcom-system-daemon \
     vendor/samsung/msm8916-common/proprietary/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
-    vendor/samsung/msm8916-common/proprietary/bin/radish:system/bin/radish \
+    vendor/samsung/msm8916-common/proprietary/bin/radish:$(TARGET_COPY_OUT_SYSTEM)/bin/radish \
     vendor/samsung/msm8916-common/proprietary/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
-    vendor/samsung/msm8916-common/proprietary/bin/ssr_diag:system/bin/ssr_diag \
+    vendor/samsung/msm8916-common/proprietary/bin/ssr_diag:$(TARGET_COPY_OUT_SYSTEM)/bin/ssr_diag \
     vendor/samsung/msm8916-common/proprietary/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
     vendor/samsung/msm8916-common/proprietary/bin/subsystem_ramdump:$(TARGET_COPY_OUT_VENDOR)/bin/subsystem_ramdump \
     vendor/samsung/msm8916-common/proprietary/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
-    vendor/samsung/msm8916-common/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
-    vendor/samsung/msm8916-common/proprietary/bin/wlandutservice:system/bin/wlandutservice \
-    vendor/samsung/msm8916-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/msm8916-common/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
-    vendor/samsung/msm8916-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/samsung/msm8916-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/samsung/msm8916-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/samsung/msm8916-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/samsung/msm8916-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/samsung/msm8916-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/samsung/msm8916-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/samsung/msm8916-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/samsung/msm8916-common/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/samsung/msm8916-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/samsung/msm8916-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/samsung/msm8916-common/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
-    vendor/samsung/msm8916-common/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
-    vendor/samsung/msm8916-common/proprietary/etc/somxreg.conf:system/etc/somxreg.conf \
-    vendor/samsung/msm8916-common/proprietary/etc/srm.bin:system/etc/srm.bin \
-    vendor/samsung/msm8916-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libcordon.so:system/lib/libcordon.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libexifa.so:system/lib/libexifa.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libgdmcprov.so:system/lib/libgdmcprov.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libjpega.so:system/lib/libjpega.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libplayready_v2.5.so:system/lib/libplayready_v2.5.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libseckeyprov.so:system/lib/libseckeyprov.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsomxadpcmd.so:system/lib/libsomxadpcmd.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsomxcore.so:system/lib/libsomxcore.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsomxhevcdsw.so:system/lib/libsomxhevcdsw.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsomxmp4vdsw.so:system/lib/libsomxmp4vdsw.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsomxnaace.so:system/lib/libsomxnaace.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
+    vendor/samsung/msm8916-common/proprietary/bin/wdsdaemon:$(TARGET_COPY_OUT_SYSTEM)/bin/wdsdaemon \
+    vendor/samsung/msm8916-common/proprietary/bin/wlandutservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wlandutservice \
+    vendor/samsung/msm8916-common/proprietary/cameradata/datapattern_420sp.yuv:$(TARGET_COPY_OUT_SYSTEM)/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/msm8916-common/proprietary/cameradata/datapattern_front_420sp.yuv:$(TARGET_COPY_OUT_SYSTEM)/cameradata/datapattern_front_420sp.yuv \
+    vendor/samsung/msm8916-common/proprietary/etc/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a300_pfp.fw \
+    vendor/samsung/msm8916-common/proprietary/etc/firmware/a300_pm4.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a300_pm4.fw \
+    vendor/samsung/msm8916-common/proprietary/etc/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a420_pfp.fw \
+    vendor/samsung/msm8916-common/proprietary/etc/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a420_pm4.fw \
+    vendor/samsung/msm8916-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/samsung/msm8916-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/samsung/msm8916-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/samsung/msm8916-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/samsung/msm8916-common/proprietary/etc/firmware/ice40.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ice40.bin \
+    vendor/samsung/msm8916-common/proprietary/etc/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/leia_pfp_470.fw \
+    vendor/samsung/msm8916-common/proprietary/etc/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/leia_pm4_470.fw \
+    vendor/samsung/msm8916-common/proprietary/etc/plmn_delta.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/plmn_delta.bin \
+    vendor/samsung/msm8916-common/proprietary/etc/plmn_se13.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/plmn_se13.bin \
+    vendor/samsung/msm8916-common/proprietary/etc/somxreg.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/somxreg.conf \
+    vendor/samsung/msm8916-common/proprietary/etc/srm.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/srm.bin \
+    vendor/samsung/msm8916-common/proprietary/lib/libOmxVdecHevc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxVdecHevc.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libatparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libatparser.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libaudio-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio-ril.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libcordon.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcordon.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libdrmdecrypt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdrmdecrypt.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libedmnativehelper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libedmnativehelper.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libexifa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexifa.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libfactoryutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfactoryutil.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libgdmcprov.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libgdmcprov.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libhdcp2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhdcp2.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libjpega.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjpega.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_interface.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmjpeg_interface.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libomission_avoidance.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libomission_avoidance.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libplayready_v2.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libplayready_v2.5.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libqomx_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqomx_core.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libseckeyprov.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libseckeyprov.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsecril-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecril-client.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsomx263dsw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomx263dsw.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsomx264dsw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomx264dsw.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsomxaacd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxaacd.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsomxaace.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxaace.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsomxadpcmd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxadpcmd.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsomxamrd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxamrd.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsomxcmn.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxcmn.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsomxcore.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxcore.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsomxflacd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxflacd.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsomxhevcdsw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxhevcdsw.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsomxmp3d.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxmp3d.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsomxmp4vdsw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxmp4vdsw.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsomxnaace.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxnaace.so \
+    vendor/samsung/msm8916-common/proprietary/lib/libsomxvp8d.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxvp8d.so \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/samsung/msm8916-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
