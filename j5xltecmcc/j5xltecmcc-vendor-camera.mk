@@ -1,3 +1,11 @@
+# Note: Taken from J5108ZMU1API1 (Android 5.1)
+# Note: Although stock android 6.0 is available for the J5108, but samsung haven't release its kernel source, Only have LL kernel source instead.
+# Note: I have already tried these but none of them works:
+# Note:   Kernel dts: msm8916-camera-sensor-cdp-j5x-r00.dtsi msm8916-camera-sensor-cdp-j5x-r01.dtsi from any kernels except J3110 and J5108
+# Note:   Kernel camera_v2: Galaxy-MSM8916(camera_v2_j5x), J510H-MM ,J510FN-MM, J510FN-NN
+# Note:   Proprietary camera blobs: j5x-common, J5108-MM, J510FN-NN
+# Note: Currently Everything works with this combination: camera_v2_j3x + defconfig from J3110 kernel + camera blobs from J5108 LL
+
 PRODUCT_COPY_FILES += \
     vendor/samsung/j5xltecmcc/camera/lib/libchromatix_s5k3l2xx_golfshot.so:system/lib/libchromatix_s5k3l2xx_golfshot.so \
     vendor/samsung/j5xltecmcc/camera/lib/libchromatix_s5k3l2xx_hfr_1080p_s.so:system/lib/libchromatix_s5k3l2xx_hfr_1080p_s.so \
