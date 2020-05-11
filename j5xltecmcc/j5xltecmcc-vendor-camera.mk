@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5xltecmcc/camera/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
     vendor/samsung/j5xltecmcc/camera/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/samsung/j5xltecmcc/camera/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/samsung/j5xltecmcc/camera/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/samsung/j5xltecmcc/camera/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/samsung/j5xltecmcc/camera/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/samsung/j5xltecmcc/camera/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
