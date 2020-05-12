@@ -15,5 +15,5 @@
 # Note: Take from J5108ZMU1BRG1 (Android 6.0)
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/j3-common/qseecom/bin/qseecomd:system/bin/qseecomd \
-    vendor/samsung/j3-common/qseecom/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so
+    vendor/samsung/j3-common/qseecom/bin/qseecomd:$(TARGET_COPY_OUT_SYSTEM)/bin/qseecomd \
+    vendor/samsung/j3-common/qseecom/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so

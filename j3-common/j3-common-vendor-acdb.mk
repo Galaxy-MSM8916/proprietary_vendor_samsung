@@ -15,10 +15,10 @@
 # Note: Take from J3109KES1ARG1 (Android 5.1)
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/j3-common/acdb/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-    vendor/samsung/j3-common/acdb/etc/General_cal.acdb:system/etc/General_cal.acdb \
-    vendor/samsung/j3-common/acdb/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-    vendor/samsung/j3-common/acdb/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-    vendor/samsung/j3-common/acdb/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-    vendor/samsung/j3-common/acdb/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-    vendor/samsung/j3-common/acdb/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb
+    vendor/samsung/j3-common/acdb/etc/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Bluetooth_cal.acdb \
+    vendor/samsung/j3-common/acdb/etc/General_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/General_cal.acdb \
+    vendor/samsung/j3-common/acdb/etc/Global_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Global_cal.acdb \
+    vendor/samsung/j3-common/acdb/etc/Handset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Handset_cal.acdb \
+    vendor/samsung/j3-common/acdb/etc/Hdmi_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Hdmi_cal.acdb \
+    vendor/samsung/j3-common/acdb/etc/Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Headset_cal.acdb \
+    vendor/samsung/j3-common/acdb/etc/Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Speaker_cal.acdb
