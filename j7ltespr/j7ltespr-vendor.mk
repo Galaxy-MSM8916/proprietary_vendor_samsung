@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
-    vendor/samsung/j7ltespr/proprietary/bin/msm_irqbalance:$(TARGET_COPY_OUT_SYSTEM)/bin/msm_irqbalance \
+    vendor/samsung/j7ltespr/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/samsung/j7ltespr/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/B05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/j7ltespr/proprietary/etc/T13QL_s5k3l2xx_module_info.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/T13QL_s5k3l2xx_module_info.xml \
     vendor/samsung/j7ltespr/proprietary/lib/hw/audio.primary.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.primary.msm8916.so \
