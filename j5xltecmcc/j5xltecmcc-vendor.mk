@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5xltecmcc/proprietary/lib/hw/sensors.vendor.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/j5xltecmcc/proprietary/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril-dsds.so \
     vendor/samsung/j5xltecmcc/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so \
-    vendor/samsung/j5xltecmcc/proprietary/bin/qseecomd:$(TARGET_COPY_OUT_SYSTEM)/bin/qseecomd \
+    vendor/samsung/j5xltecmcc/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/samsung/j5xltecmcc/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so
 
 $(call inherit-product, vendor/samsung/j5xltecmcc/j5xltecmcc-vendor-*.mk)
