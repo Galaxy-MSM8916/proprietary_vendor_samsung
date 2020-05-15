@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5xltecmcc/camera/vendor/lib/libchromatix_s5k5e3yx_wide_f1_9_zslshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_wide_f1_9_zslshot.so \
     vendor/samsung/j5xltecmcc/camera/vendor/lib/libmmcamera_s5k3l2xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l2xx.so \
     vendor/samsung/j5xltecmcc/camera/vendor/lib/libchromatix_s5k3l2xx_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_vt.so \
-    vendor/samsung/j5xltecmcc/camera/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/samsung/j5xltecmcc/camera/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/samsung/j5xltecmcc/camera/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_modules.so \
     vendor/samsung/j5xltecmcc/camera/vendor/lib/libactuator_zc533_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_zc533_camcorder.so \

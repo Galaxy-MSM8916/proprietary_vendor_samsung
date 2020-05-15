@@ -210,7 +210,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/e7lte/proprietary/vendor/lib/libmmipstreamnetwork.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmipstreamnetwork.so \
     vendor/samsung/e7lte/proprietary/vendor/lib/libmmipstreamsourcehttp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmipstreamsourcehttp.so \
     vendor/samsung/e7lte/proprietary/vendor/lib/libmmipstreamutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmipstreamutils.so \
-    vendor/samsung/e7lte/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/samsung/e7lte/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/samsung/e7lte/proprietary/vendor/lib/libmmparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmparser.so \
     vendor/samsung/e7lte/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
