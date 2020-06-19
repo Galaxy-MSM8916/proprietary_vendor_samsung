@@ -16,5 +16,4 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/j3ltectc/proprietary/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril-dsds.so \
-    vendor/samsung/j3ltectc/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so \
-    vendor/samsung/j3ltectc/proprietary/lib/hw/sensors.vendor.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.vendor.msm8916.so
+    vendor/samsung/j3ltectc/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so
