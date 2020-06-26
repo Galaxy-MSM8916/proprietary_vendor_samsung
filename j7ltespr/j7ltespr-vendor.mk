@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/etc/Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Headset_cal.acdb \
     vendor/samsung/j7ltespr/proprietary/etc/Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Speaker_cal.acdb \
     vendor/samsung/j7ltespr/proprietary/etc/T13QL_s5k3l2xx_module_info.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/T13QL_s5k3l2xx_module_info.xml \
-    vendor/samsung/j7ltespr/proprietary/lib/hw/audio.primary.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.primary.msm8916.so \
     vendor/samsung/j7ltespr/proprietary/lib/hw/camera.vendor.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/j7ltespr/proprietary/lib/hw/sensors.vendor.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/j7ltespr/proprietary/lib/libaec_algo_front.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaec_algo_front.so \
@@ -32,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/libaf_algo_rear.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaf_algo_rear.so \
     vendor/samsung/j7ltespr/proprietary/lib/libAl_Awb.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libAl_Awb.so \
     vendor/samsung/j7ltespr/proprietary/lib/libAl_Awb_Sp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libAl_Awb_Sp.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
     vendor/samsung/j7ltespr/proprietary/lib/libawb_algo_front_al.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libawb_algo_front_al.so \
     vendor/samsung/j7ltespr/proprietary/lib/libawb_algo_rear_al.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libawb_algo_rear_al.so \
     vendor/samsung/j7ltespr/proprietary/lib/libchromatix_s5k3l2xx_common_1080p_b.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common_1080p_b.so \
@@ -54,42 +52,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7ltespr/proprietary/lib/libchromatix_s5k3l2xx_snapshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_snapshot.so \
     vendor/samsung/j7ltespr/proprietary/lib/libchromatix_s5k3l2xx_uhd_video.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_uhd_video.so \
     vendor/samsung/j7ltespr/proprietary/lib/libchromatix_s5k3l2xx_zslshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_zslshot.so \
-    vendor/samsung/j7ltespr/proprietary/lib/lib_DNSe_EP_ver216b.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_DNSe_EP_ver216b.so \
-    vendor/samsung/j7ltespr/proprietary/lib/lib_DNSe_NRSS_ver230.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_DNSe_NRSS_ver230.so \
     vendor/samsung/j7ltespr/proprietary/lib/libface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libface.so \
     vendor/samsung/j7ltespr/proprietary/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/j7ltespr/proprietary/lib/libmmcamera_cac2_lib_13M.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_cac2_lib_13M.so \
     vendor/samsung/j7ltespr/proprietary/lib/libmmcamera_wavelet_lib.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_wavelet_lib.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libmysound.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmysound.so \
-    vendor/samsung/j7ltespr/proprietary/lib/lib_PreGainBooster_ver104.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_PreGainBooster_ver104.so \
     vendor/samsung/j7ltespr/proprietary/lib/libprotobuf-cpp-lgcy.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-lgcy.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsamsungearcare.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungearcare.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsamsungeffect.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungeffect.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libSamsungMusic_v4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungMusic_v4.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libSamsungPkcs11Wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPkcs11Wrapper.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libSamsungPostProcess.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPostProcess.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsamsungpowersound.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungpowersound.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libSamsungPreProcess.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPreProcess.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsamsungRecord_ns.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungRecord_ns.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsamsungRecord.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungRecord.so \
-    vendor/samsung/j7ltespr/proprietary/lib/lib_SamsungRec_V04013.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SamsungRec_V04013.so \
-    vendor/samsung/j7ltespr/proprietary/lib/lib_Samsung_Resampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_Samsung_Resampler.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsamsungSoundbooster_ext.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungSoundbooster_ext.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsamsungSoundbooster_pgb.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungSoundbooster_pgb.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsamsungVoipResampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungVoipResampler.so \
     vendor/samsung/j7ltespr/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so \
-    vendor/samsung/j7ltespr/proprietary/lib/lib_SoundAlive_3DPosition_ver107.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundAlive_3DPosition_ver107.so \
-    vendor/samsung/j7ltespr/proprietary/lib/lib_SoundAlive_play_plus_ver126a.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundAlive_play_plus_ver126a.so \
-    vendor/samsung/j7ltespr/proprietary/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_soundaliveresampler.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libsoundalive.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsoundalive.so \
-    vendor/samsung/j7ltespr/proprietary/lib/lib_SoundAlive_SRC192_ver205.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundAlive_SRC192_ver205.so \
-    vendor/samsung/j7ltespr/proprietary/lib/lib_SoundAlive_ver118t.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundAlive_ver118t.so \
-    vendor/samsung/j7ltespr/proprietary/lib/lib_SoundBooster_ver608.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundBooster_ver608.so \
-    vendor/samsung/j7ltespr/proprietary/lib/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinyalsa.so \
     vendor/samsung/j7ltespr/proprietary/lib/libTsAf.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAf.so \
-    vendor/samsung/j7ltespr/proprietary/lib/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libaudioeffectoffload.so \
-    vendor/samsung/j7ltespr/proprietary/lib/soundfx/libaudiosa_sec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libaudiosa_sec.so \
-    vendor/samsung/j7ltespr/proprietary/lib/soundfx/libmyspace.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libmyspace.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libactuator_dw9806_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9806_camcorder.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libactuator_dw9806_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9806_camera.so \
     vendor/samsung/j7ltespr/proprietary/vendor/lib/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalmodule_gyroscope.so \
