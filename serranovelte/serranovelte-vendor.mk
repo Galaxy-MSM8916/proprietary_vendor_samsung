@@ -16,3 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/serranovelte/proprietary/lib/hw/nfc_nci.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/nfc_nci.msm8916.so
+
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/samsung/serranovelte

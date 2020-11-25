@@ -18,3 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7lte-common/proprietary/bin/msm_irqbalance:$(TARGET_COPY_OUT_SYSTEM)/bin/msm_irqbalance \
     vendor/samsung/j7lte-common/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
     vendor/samsung/j7lte-common/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so
+
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/samsung/j7lte-common

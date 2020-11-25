@@ -140,3 +140,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/serranovexx-common/proprietary/vendor/lib/libchromatix_sr544_zslshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_zslshot.so \
     vendor/samsung/serranovexx-common/proprietary/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/samsung/serranovexx-common/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so
+
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/samsung/serranovexx-common

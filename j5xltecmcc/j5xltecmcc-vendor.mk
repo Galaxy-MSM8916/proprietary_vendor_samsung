@@ -22,3 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5xltecmcc/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so
 
 $(call inherit-product, vendor/samsung/j5xltecmcc/j5xltecmcc-vendor-*.mk)
+
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/samsung/j5xltecmcc

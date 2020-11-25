@@ -35,3 +35,7 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/samsung/j3-common/proprietary/lib/hw/sensors.vendor.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.vendor.msm8916.so
+
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/samsung/j3-common

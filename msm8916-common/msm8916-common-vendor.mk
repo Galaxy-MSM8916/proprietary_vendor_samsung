@@ -215,3 +215,7 @@ PRODUCT_PACKAGES += \
     libqct_resampler \
     libtime_genoff \
     TimeService
+
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/samsung/msm8916-common

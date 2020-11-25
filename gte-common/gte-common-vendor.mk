@@ -19,3 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gte-common/proprietary/lib/libmysound.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmysound.so \
     vendor/samsung/gte-common/proprietary/lib/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/gte-common/proprietary/lib/soundfx/libmyspace.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libmyspace.so
+
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/samsung/gte-common

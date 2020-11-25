@@ -18,3 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/o7prolte/proprietary/lib/hw/sensors.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/o7prolte/proprietary/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril-dsds.so \
     vendor/samsung/o7prolte/proprietary/lib/libsec-ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril.so
+
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/samsung/o7prolte

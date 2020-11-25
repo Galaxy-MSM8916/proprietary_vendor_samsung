@@ -16,3 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/serranove3g/proprietary/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec-ril-dsds.so
+
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/samsung/serranove3g
