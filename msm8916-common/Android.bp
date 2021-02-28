@@ -13,12 +13,13 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/lib/libloc_api_v02.so"],
+			srcs: ["proprietary/vendor/lib/libloc_api_v02.so"],
 		},
 	},
 	compile_multilib: "32",
 	check_elf_files: false,
 	prefer: true,
+	soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -29,12 +30,13 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/lib/libloc_ds_api.so"],
+			srcs: ["proprietary/vendor/lib/libloc_ds_api.so"],
 		},
 	},
 	compile_multilib: "32",
 	check_elf_files: false,
 	prefer: true,
+	soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
@@ -45,12 +47,13 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/lib/vendor.qti.hardware.fm@1.0.so"],
+			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so"],
 		},
 	},
 	compile_multilib: "32",
 	check_elf_files: false,
 	prefer: true,
+	soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
