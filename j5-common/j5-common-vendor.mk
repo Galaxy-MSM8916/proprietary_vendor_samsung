@@ -6,7 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/j5-common
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/j5-common/proprietary/bin/qseecomd:$(TARGET_COPY_OUT_SYSTEM)/bin/qseecomd \
+    vendor/samsung/j5-common/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/samsung/j5-common/proprietary/etc/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Bluetooth_cal.acdb \
     vendor/samsung/j5-common/proprietary/etc/General_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/General_cal.acdb \
     vendor/samsung/j5-common/proprietary/etc/Global_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Global_cal.acdb \
@@ -15,38 +15,38 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5-common/proprietary/etc/Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Headset_cal.acdb \
     vendor/samsung/j5-common/proprietary/etc/Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Speaker_cal.acdb \
     vendor/samsung/j5-common/proprietary/etc/T13QL_s5k3l2xx_module_info.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/T13QL_s5k3l2xx_module_info.xml \
-    vendor/samsung/j5-common/proprietary/lib/hw/camera.vendor.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.msm8916.so \
-    vendor/samsung/j5-common/proprietary/lib/libAl_Awb.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libAl_Awb.so \
-    vendor/samsung/j5-common/proprietary/lib/libAl_Awb_Sp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libAl_Awb_Sp.so \
-    vendor/samsung/j5-common/proprietary/lib/libTsAf.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libTsAf.so \
-    vendor/samsung/j5-common/proprietary/lib/libaec_algo_front.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaec_algo_front.so \
-    vendor/samsung/j5-common/proprietary/lib/libaec_algo_rear.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaec_algo_rear.so \
-    vendor/samsung/j5-common/proprietary/lib/libaf_algo_rear.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaf_algo_rear.so \
-    vendor/samsung/j5-common/proprietary/lib/libawb_algo_front_al.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libawb_algo_front_al.so \
-    vendor/samsung/j5-common/proprietary/lib/libawb_algo_rear_al.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libawb_algo_rear_al.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_common.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_common_1080p_b.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common_1080p_b.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_common_1080p_s.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common_1080p_s.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_common_res0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common_res0.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_common_res1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common_res1.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_common_res2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common_res2.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_common_res3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_common_res3.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_default_video.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_default_video.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_golfshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_golfshot.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_hfr_1080p_s.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_hfr_1080p_s.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_hfr_120.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_hfr_120.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_liveshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_liveshot.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_panorama.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_panorama.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_pip.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_pip.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_preview.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_preview.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_snapshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_snapshot.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_sports.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_sports.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_uhd_video.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_uhd_video.so \
-    vendor/samsung/j5-common/proprietary/lib/libchromatix_s5k3l2xx_zslshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromatix_s5k3l2xx_zslshot.so \
-    vendor/samsung/j5-common/proprietary/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera2_stats_algorithm.so \
-    vendor/samsung/j5-common/proprietary/lib/libmmcamera_cac2_lib.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_cac2_lib.so \
-    vendor/samsung/j5-common/proprietary/lib/libmmcamera_wavelet_lib.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmcamera_wavelet_lib.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8916.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libAl_Awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAl_Awb.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libAl_Awb_Sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAl_Awb_Sp.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libTsAf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTsAf.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libaec_algo_front.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaec_algo_front.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libaec_algo_rear.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaec_algo_rear.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libaf_algo_rear.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaf_algo_rear.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libawb_algo_front_al.so:$(TARGET_COPY_OUT_VENDOR)/lib/libawb_algo_front_al.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libawb_algo_rear_al.so:$(TARGET_COPY_OUT_VENDOR)/lib/libawb_algo_rear_al.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_common.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_common_1080p_b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_common_1080p_b.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_common_1080p_s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_common_1080p_s.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_common_res0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_common_res0.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_common_res1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_common_res1.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_common_res2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_common_res2.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_common_res3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_common_res3.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_default_video.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_golfshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_golfshot.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_hfr_1080p_s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_hfr_1080p_s.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_hfr_120.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_liveshot.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_panorama.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_pip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_pip.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_preview.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_snapshot.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_sports.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_sports.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_uhd_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_uhd_video.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libchromatix_s5k3l2xx_zslshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_zslshot.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libmmcamera_cac2_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac2_lib.so \
+    vendor/samsung/j5-common/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wavelet_lib.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libactuator_dw9806_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9806_camcorder.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libactuator_dw9806_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9806_camera.so \
