@@ -1,3 +1,3 @@
 # proprietary_vendor_samsung
 
-Vendor blobs for samsung msm8916 devices
+Vendor blobs for samsung galaxy ON7
